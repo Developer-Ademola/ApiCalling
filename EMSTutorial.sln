@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infinion_Campaign", "EMSTutorial\Infinion_Campaign.csproj", "{AE804787-C70A-45D6-B6FA-1CB556D83905}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE804787-C70A-45D6-B6FA-1CB556D83905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE804787-C70A-45D6-B6FA-1CB556D83905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE804787-C70A-45D6-B6FA-1CB556D83905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE804787-C70A-45D6-B6FA-1CB556D83905}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF600CC3-8EFF-457A-BFF5-5951B6AE165B}
+	EndGlobalSection
+EndGlobal
