@@ -7,9 +7,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EMSTutorial.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
-    public class CampaignController : Controller
+    [Route("[controller]")]
+    public class CampaignController : ControllerBase
     {
         private readonly ApplicationDbContext _dbContext;
       

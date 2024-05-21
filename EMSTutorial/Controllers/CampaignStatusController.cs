@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Infinion_Campaign.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
-    public class CampaignStatusController : Controller
+    [Route("[controller]")]
+    public class CampaignStatusController : ControllerBase
     {
         private readonly ApplicationDbContext _dbContext;
 
