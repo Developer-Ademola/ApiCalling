@@ -1,5 +1,6 @@
 using EMSTutorial.Data;
 using Microsoft.EntityFrameworkCore;
+using EMSTutorial.Repository;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
 
