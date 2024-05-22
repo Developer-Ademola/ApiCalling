@@ -1,6 +1,7 @@
 using EMSTutorial.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -42,7 +43,6 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    // Optionally enable Swagger in production with restricted access
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
@@ -52,9 +52,7 @@ else
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 // Global exception handler
