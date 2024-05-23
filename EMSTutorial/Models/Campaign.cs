@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace EMSTutorial.Models
+namespace Infinion_Campaign.Models
 {
     public class Campaign
     {
