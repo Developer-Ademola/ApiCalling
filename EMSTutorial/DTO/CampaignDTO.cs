@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
 
-namespace EMSTutorial.DTO
+namespace Infinion_Campaign.DTO
 {
     public class CampaignDTO
     {
