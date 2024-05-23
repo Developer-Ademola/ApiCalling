@@ -1,6 +1,6 @@
-using EMSTutorial.Data;
+namespace Infinion_Campaign.Data;
 using Microsoft.EntityFrameworkCore;
-using EMSTutorial.Repository;
+namespace Infinion_Campaign.Repository;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
 
