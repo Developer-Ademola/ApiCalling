@@ -1,7 +1,7 @@
 ﻿using EMSTutorial.DTO;
 using EMSTutorial.Models;
 
-namespace EMSTutorial.Repository
+namespace Infinion_Campaign.Repository
 {
     public interface ICampaignService
     {
