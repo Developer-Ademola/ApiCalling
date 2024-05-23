@@ -5,7 +5,7 @@ using Infinion_Campaign.DTO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace EMSTutorial.Controllers
+namespace Infinion_Campaign.Controllers
 {
     [ApiController]
     [Route("[controller]")]
