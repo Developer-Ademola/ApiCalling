@@ -1,7 +1,7 @@
 ﻿using EMSTutorial.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace EMSTutorial.Data
+namespace Infinion_Campaign.Data
 {
     public class ApplicationDbContext : DbContext
     {
